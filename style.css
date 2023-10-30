@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+
+*{
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.nav-bar{
+    justify-content: space-between;
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+    border-bottom: 4px solid #191924;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.links a{
+    text-decoration: none;
+    color: #191924;
+}
+.links a:hover{
+    background-color: rgb(136, 255, 255);
+    color: #191924;
+    border: 2px solid #191924;
+    border-radius: 5px;
+    padding: 5px 20px;
+    transition-duration: 0.5s;
+}
+.login-btn{
+    background-color: cyan;
+    color: #191924;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #191924;
+}
+.signup-btn{
+    background-color: cyan;
+    color: #191924;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #191924;
+}
+.signup-btn:hover,.login-btn:hover{
+    background-color: rgb(136, 255, 255);
+    transition-duration: 0.5s;
+}
+#hero{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-img{
+    width: 450px;
+}
+.hero-message{
+    color: #000;
+    text-align: left;
+}
+.txt-a{
+    margin-bottom: 5px;
+}
+.txt-a p{
+    font-size: 30px;
+}
+.txt-b p{
+    color: #323238;
+}
+a{
+    text-decoration: none;
+    color: #323238;
+}
+.explore-txt a:hover{
+    color: #191924;
+    border: 2px solid #191924;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: rgb(136, 255, 255);
+    transition-duration: 0.5s;
+}
+#about{
+    margin: 0 50px;
+}
+.about-txt{
+    width: 800px;
+}
+#products{
+    margin: 0 50px;
+}
+.item-list{
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+td{
+    border: 2px solid #191924;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+#app{
+    margin: 0 50px;
+}
+.app-img{
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.app-img img{
+    width: 200px;
+}
+.download-app{
+    padding-left: 50px;
+}
+.download-app a{
+    margin-left: 50px;
+}
+#contact{
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.info h4,span{
+    margin: 0 100px 0 50px;
+}
+.info span a{
+    color: #191924;
+    text-decoration: none;
+}
+.info span a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+form{
+    width: 360px;
+    margin-top: 70px;
+    background-color: #242430;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.reply-message h2{
+    margin: 150px 30px;
+    letter-spacing: 2px;
+}
+.contact-txt h3{
+    color: #a2a2a7;
+}
+.contact-txt h3:hover{
+    color: gold;
+    transition-duration: 0.5s;
+}
+#email, #subject, #name, #password, #confirm-email, #confirm-password{
+    width: 300px;
+    height: 40px;
+    padding: 5px 8px;
+    background-color: #191924;
+    color: #a2a2a7;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+#message{
+    width: 300px;
+    height: 150px;
+    padding: 5px 8px;
+    background-color: #191924;
+    color: #a2a2a7;
+    border-radius: 5px;
+}
+#submit{
+    background-color: cyan;
+    color: #191924;
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    border: 2px solid #191924;
+}
+#submit:hover{
+    background-color: rgb(136, 255, 255);
+    transition-duration: 0.5s;
+}
+.sign-up-txt, .login-txt, .sign-up-txt a, .login-txt a{
+    color: #a2a2a7;
+}
+.sign-up-txt a, .login-txt a{
+    padding-left: 50px;
+}
+.sign-up-txt a:hover, .login-txt a:hover{
+    transition-duration: 0.5s;
+    color: blue;
+}
+footer{
+    margin-top: 20px;
+    justify-content: space-between;
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-top: 4px solid #191924;
+}
+footer span{
+    font-size: 15px;
+}
+.footer-txt-a{
+    text-align: left;
+}
+.footer-txt-b{
+    text-align: right;
+}
+@media only screen and (max-width:1300px){
+    .item-list{
+        display: block;
+    }
+    #item-number{
+        padding-right: 55px;
+    }
+    .item-name{
+        width: 500px;
+    }
+    #app{
+        margin-right: 0;
+        margin-left: 15px;
+    }
+    #secend-raw{
+        display: none;
+    }
+}
+@media only screen and (max-width:1000px){
+    .hero-img{
+        width: 380px;
+    }
+    .app-img img{
+        width: 150px;
+    }
+    .reply-message{
+        display: none;
+    }
+}
+@media only screen and (max-width:850px){
+    .hero-img{
+        display: none;
+    }
+    .hero-message{
+        margin-left:30px;
+        background: url("./assets/hero-img.png") rgba(0, 0, 0, 0.8);
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        opacity: 70%;
+        width: 700px;
+        padding: 15px;
+        border-radius: 15px;
+        color: #fff;
+    }
+    .txt-b p{
+        color: #fff;
+    }
+    .txt-b p a{
+        background-color: cyan;
+        color: #191924;
+        padding: 5px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 2px solid #191924;
+    }
+    .about-txt{
+        width: 500px;
+        margin-left: 15px;
+    }
+    .app-img{
+        display: none;
+    }
+    .app-img-txt{
+        margin-left: 50px;
+        display: block;
+    }
+    .app-img-txt h3 a:hover{
+        color: blue;
+        transition-duration: 0.5s;
+    }
+}
+@media only screen and (max-width:840px){
+    .links{
+        display: none;
+    }
+    .login-btn{
+        margin-left: 10px;
+    }
+    #products{
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width:595px){
+    .logo{
+        font-size: 25px;
+    }
+    .login-btn{
+        margin-left: 2px;
+    }
+    .about-txt{
+        width: 350px;
+        margin-left: 15px;
+        text-align: center;
+    }
+    #products{
+        margin-left: 15px;
+    }
+    #contact{
+        display: block;
+    }
+    .info h4,span{
+        margin:  0 0 0 15px;
+        width: 600px;
+    }
+}
